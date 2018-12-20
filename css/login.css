@@ -1,0 +1,378 @@
+/*----导航栏*/
+nav>#loginHref{
+  position: absolute;
+  font-size: 14px;
+  left: 50px;
+  top: 9px;
+}
+nav>#loginHref>a{
+  padding-top: 2px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+nav>#loginHref>a:hover{
+  color: #ff6342;
+}
+nav>#loginHref>i{
+  color: #ff6342;
+}
+/*------logo----------*/
+#loginL_wrap{
+  width: 100%;
+  height: 87px;
+  background: #fff;
+}
+#loginL{
+  width: 1190px;
+  height: 87px;
+  background: #fff;
+  margin: 0 auto;
+  position: relative;
+}
+#loginL>img{
+  margin-top: 20px;
+}
+#loginL>h2{
+  color: #8c6666;
+  font-size: 19px;
+  position: absolute;
+  left: 188px;
+  top: 32px;
+  border-left: 1px solid #dcdcdc;
+  padding-left: 20px;
+}
+/*-------登录---------*/
+#login_wrap{
+  width: 100%;
+  height: 508px;
+  background: #fff;
+}
+#loginBox{
+  width: 1190px;
+  height: 508px;
+  background: #f7f7f7;
+  margin: 0 auto;
+  box-sizing: border-box;
+  position: relative;
+}
+#loginBox>img{
+  width: 575px;
+  height: 432px;
+  margin-top: 56px;
+  margin-left: 139px;
+}
+#loginBox>img:hover{
+opacity:1;filter(alpha=80)
+}
+
+/*------扫码登录---------*/
+#loginBox>#loginR{
+  width: 289px;
+  height: 384px;
+  background: #fff;
+  border: 1px solid #cccccc;
+  position: absolute;
+  right: 81px;
+  top: 88px;
+  box-sizing: border-box;
+  /*display: none;*/
+}
+#loginBox>#loginR>i{
+  float: right;
+  margin-right: 7px;
+  margin-top: 7px;
+}
+#loginBox>#loginR>i>img:hover{
+  opacity:1;filter(alpha=80)
+}
+#loginBox>#loginR>h5{
+  font-size: 16px;
+  margin-left: 73px;
+}
+#loginBox>#loginR>#loginIMG{
+  margin-top: 18px;
+  margin-left: 66px;
+}
+#loginBox>#loginR>#loginIMG:hover{
+  opacity:1;filter(alpha=100)
+}
+#loginBox>#loginR>#saoyisao{
+  margin-top: 12px;
+  margin-left: 80px;
+}
+#loginBox>#loginR>#saoyisao:hover{
+  opacity:1;filter(alpha=80)
+}
+#loginBox>#loginR>h2{
+  border-bottom: 1px dashed #cccccc;
+  width: 246px;
+  margin-left: 20px;
+  margin-top: 23px;
+}
+#loginBox>#loginR>h3{
+  font-size: 16px;
+  color: #777777;
+  margin-left: 130px;
+  margin-top: 16px;
+}
+/*------------手机密码登录-------------*/
+#loginBox>#phoneLogin{
+  width:289px;
+  height: 345px;
+  background: #fff;
+  position: absolute;
+  top: 88px;
+  right: 81px;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+  display: none;
+}
+#phoneLogin>#erwei{
+  float: right;
+  margin-top: 8px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+#PCcon{
+  cursor: pointer;
+}
+#phoneLogin>#erwei:hover{
+  opacity:1;filter(alpha=80)
+}
+#phoneLogin>#loginList{
+  width: 246px;
+  height: 27px;
+  background: #fff;
+  margin-left: 20px;
+}
+#phoneLogin>#loginList>li{
+  float: left;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  line-height: 27px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+#phoneLogin>#loginList>li:nth-child(1){
+  border-bottom: 2px solid #ff6342;
+  color: #333333;
+}
+#phoneLogin>#loginList>li:nth-child(2){
+  border-bottom: 2px solid #efefef;
+  color: #999999;
+}
+/*------------------#FORM1---------*/
+#phoneLogin>#FORM1{
+  /*display: none;*/
+}
+#phoneLogin>#FORM1>select{
+  width: 117px;
+  height: 30px;
+  overflow-y: scroll;
+  border: 1px solid #cccccc;
+  margin-left: 19px;
+  margin-top: 23px;
+  float: left;
+  /*display: none;*/
+}
+#phoneLogin>#FORM1>#phone{
+  float: right;
+  width: 117px;
+  height: 30px;
+  border: 1px solid #cccccc;
+  margin-right: 19px;
+  margin-top: 23px;
+  padding-left: 8px;
+}
+#phoneLogin>#FORM1>#DM{
+  width: 145px;
+  height: 29px;
+  margin-left: 19px;
+  margin-top: 15px;
+  padding-left: 5px;
+}
+#phoneLogin>#FORM1>#DMbn{
+  width: 88px;
+  height: 32px;
+  background: #fff;
+  border: 1px solid #cccccc;
+}
+#phoneLogin>#FORM1>#check{
+  width: 13px;
+  height: 13px;
+  margin-top: 17px;
+  margin-left: 19px;
+  margin-right: 7px;
+}
+#phoneLogin>#FORM1>#phla{
+  font-size: 14px;
+  color: #666666;
+}
+#phoneLogin>#FORM1>#loginBN{
+  width: 246px;
+  height: 34px;
+  background: #ff6633;
+  margin-left: 19px;
+  margin-top: 14px;
+  border: none;
+}
+#phoneLogin>#FORM1>#Solid{
+    border-bottom: 1px dashed #cccccc;
+    margin-top: 30px;
+  margin-left: 19px;
+  width: 246px;
+}
+#phoneLogin>#tubiao{
+  margin-left: 19px;
+  margin-top: 18px;
+}
+#phoneLogin>#tubiao>li{
+  float: left;
+  margin-right: 15px;
+}
+#phoneLogin>#tubiao>li:nth-child(1){
+  font-size: 30px;
+  color: #35bafa;
+}
+#phoneLogin>#tubiao>li:nth-child(2){
+  font-size: 25px;
+  color: #3ad043;
+  margin-top: 3px;
+}
+#phoneLogin>#tubiao>li:nth-child(3){
+  font-size: 25px;
+  color: #ff7c6d;
+  margin-top: 3px;
+}
+#phoneLogin>#tubiao>li:nth-child(4){
+  font-size: 16px;
+  color: #ff7c6d;
+  float: right;
+  margin-right: 20px;
+}
+
+
+
+/*--------#FORM2---------*/
+#phoneLogin>#FORM2{
+  display: none
+}
+#phoneLogin>#FORM2>select{
+  width: 117px;
+  height: 30px;
+  overflow-y: scroll;
+  border: 1px solid #cccccc;
+  margin-left: 19px;
+  margin-top: 23px;
+  float: left;
+}
+#phoneLogin>#FORM2>#phone2{
+  float: right;
+  width: 117px;
+  height: 30px;
+  border: 1px solid #cccccc;
+  margin-right: 19px;
+  margin-top: 23px;
+  padding-left: 8px;
+}
+#phoneLogin>#FORM2>#DM2{
+  width: 240px;
+  height: 29px;
+  margin-left: 19px;
+  margin-top: 15px;
+  padding-left: 5px;
+}
+#phoneLogin>#FORM2>#DMbn2{
+  width: 88px;
+  height: 32px;
+}
+#phoneLogin>#FORM2>#check{
+  width: 13px;
+  height: 13px;
+  margin-top: 17px;
+  margin-left: 19px;
+  margin-right: 7px;
+}
+#phoneLogin>#FORM2>#phla2{
+  font-size: 14px;
+  color: #666666;
+}
+#phoneLogin>#FORM2>#loginBN2{
+  width: 246px;
+  height: 34px;
+  background: #ff6633;
+  margin-left: 19px;
+  margin-top: 14px;
+  border: none;
+}
+#phoneLogin>#FORM2>#Solid2{
+  border-bottom: 1px dashed #cccccc;
+  margin-top: 30px;
+  margin-left: 19px;
+  width: 246px;
+}
+#phoneLogin>#FORM2>a{
+  font-size: 14px;
+  color: #666666;
+  margin-left: 100px;
+}
+/*-------提示信息*/
+#hint{
+  position: absolute;
+  left: 20px;
+  /*width: 100%;*/
+  text-align: center;
+  margin-left: 35px;
+  color: #c00;
+}
+
+
+
+
+/*------底部--------*/
+#LfooterBox{
+  width: 100%;
+  height: 120px;
+}
+#Lfooter{
+  width: 1190px;
+  height: 120px;
+  background: #fff;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-top: 45px;
+  padding-left: 196px;
+}
+#Lfooter>a{
+  float: left;
+  border-right: 1px solid #eeebee;
+  color: #8c8c8c;
+  font-size: 12px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+#Lfooter>a:nth-child(11){
+  border-right: none;
+}
+#Lfooter>h5{
+  color: #8c8c8c;
+  font-size: 12px;
+  margin-left: 100px;
+  margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+body,ul,ol,dl,dd,p,hr,h1,h2,h3,h4,h5,h6,fieldset,input,option,textarea,th,td,lagend{margin:0;padding:0;}/* 清除默认边距 */
+li{list-style:none;}/* 清除li前面. */
+*{margin: 0;padding: 0}
+a{text-decoration:none;}/* 清除a标签下划线*/
+input,a,area{outline:none;color:black;}/* 清除默认字样式 */
+h1,h2,h3,h4,h5,h6,strong{font-weight:normal;}/* 清除默认字体样式 */
+i,em{font-style:normal;}/* 清除默认倾斜 */
+/*body{font:12px "微软雅黑";}!* 重置字体大小 样式 *!*/
+.fl{float: left}
+.fr{float: right}
+.clear:after{content:".";display:block;clear:both;height:0;visibility:hidden;}/* 清除默认边距 */
+.clear{zoom:1;}/* 兼容IE6 */
+li{cursor: pointer}
+img {opacity:1;filter(alpha=100)}
+img:hover {opacity:.8;filter(alpha=80)}

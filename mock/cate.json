@@ -1,0 +1,11 @@
+{
+  "class":[{"id":"1","src":"../image/huoguo.png","storeName":"满恒记火锅","dianping":"22206","pingzhong":"涮羊肉","dizhi":"阜成门","jiage":"97"},
+  {"id":"2","src":"../image/fumanlou.png","storeName":"满福楼","dianping":"18707","pingzhong":"涮羊肉","dizhi":"朝外大街","jiage":"124"},
+  {"id":"3","src":"../image/chengdu.png","storeName":"成都葫芦娃一家人","dianping":"10290","pingzhong":"四川火锅","dizhi":"三里屯","jiage":"156"},
+  {"id":"4","src":"../image/kaorou.png","storeName":"伙伴日式烤肉","dianping":"9306","pingzhong":"日式烧烤","dizhi":"东直门","jiage":"148"},
+  {"id":"5","src":"../image/niufu.png","storeName":"重八牛府","dianping":"9656","pingzhong":"火锅","dizhi":"魏公村","jiage":"104"},
+  {"id":"6","src":"../image/hele.png","storeName":"和楽亭","dianping":"253","pingzhong":"日式火锅","dizhi":"崇文门","jiage":"103"}
+  ]
+
+}
+

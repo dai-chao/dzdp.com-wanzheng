@@ -1,0 +1,222 @@
+/*----导航栏*/
+nav>#loginHref{
+    position: absolute;
+    font-size: 14px;
+    left: 50px;
+    top: 9px;
+}
+nav>#loginHref>a{
+    padding-top: 2px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+nav>#loginHref>a:hover{
+    color: #ff6342;
+}
+nav>#loginHref>i{
+    color: #ff6342;
+}
+/*------logo----------*/
+#loginL_wrap{
+    width: 100%;
+    height: 87px;
+    background: #fff;
+}
+#loginL{
+    width: 1190px;
+    height: 87px;
+    background: #fff;
+    margin: 0 auto;
+    position: relative;
+}
+#loginL>img{
+    margin-top: 20px;
+}
+#loginL>h2{
+    color: #8c6666;
+    font-size: 19px;
+    position: absolute;
+    left: 188px;
+    top: 32px;
+    border-left: 1px solid #dcdcdc;
+    padding-left: 20px;
+}
+/*-------登录---------*/
+#login_wrap{
+    width: 100%;
+    height: 508px;
+    background: #fff;
+}
+#loginBox{
+    width: 1190px;
+    height: 508px;
+    background: #f7f7f7;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+}
+#loginBox>img{
+    width: 575px;
+    height: 432px;
+    margin-top: 56px;
+    margin-left: 139px;
+}
+#loginBox>img:hover{
+    opacity:1;filter(alpha=80)
+}
+
+/*------扫码登录---------*/
+#loginBox>#loginR{
+    width: 290px;
+    height: 364px;
+    background: #fff;
+    border: 1px solid #cccccc;
+    position: absolute;
+    right: 81px;
+    top: 88px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-right: 20px;
+}
+#loginR>form>h2{
+    font-size: 17px;
+    font-weight: bold;
+}
+#loginR>form>select{
+    width: 117px;
+    height: 32px;
+    border: 1px solid #cccccc;
+    margin-top: 44px;
+    float: left;
+    padding-left: 8px;
+}
+#loginR>form>#phonePut{
+    width: 117px;
+    height: 32px;
+    float: right;
+    border: 1px solid #cccccc;
+    margin-top: 44px;
+    box-sizing: border-box;
+    padding-left: 8px;
+}
+#dongtaima{
+    width: 143px;
+    height: 32px;
+    border: 1px solid #cccccc;
+    margin-top: 12px;
+    padding-left: 8px;
+}
+#donttaimaBN{
+    width: 82px;
+    height: 32px;
+    border: 1px solid #cccccc;
+    margin-left: 8px;
+    margin-top: 12px;
+    background: #fff;
+}
+#PASS{
+    width: 100%;
+    height: 32px;
+    border: 1px solid #cccccc;
+    margin-top: 12px;
+    padding-left: 8px;
+}
+#loginR>form>p{
+    color: #ff6342;
+    font-size: 12px;
+    margin-top: 16px;
+}
+#registerBN{
+    width: 100%;
+    height: 34px;
+    background: #ff6342;
+    margin-top: 5px;
+    border: none;
+    color: #fff;
+}
+
+lable{
+    font-size: 12px;
+}
+lable>a{
+    color: blue;
+}
+
+/*-----提示信息--------*/
+#regT{
+    position: absolute;
+    top: 267px;
+    right: 120px;
+    color: red;
+    /*display: none;*/
+    z-index: 100;
+    background: pink;
+    width: 287px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------底部--------*/
+#LfooterBox{
+    width: 100%;
+    height: 120px;
+}
+#Lfooter{
+    width: 1190px;
+    height: 120px;
+    background: #fff;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top: 45px;
+    padding-left: 196px;
+}
+#Lfooter>a{
+    float: left;
+    border-right: 1px solid #eeebee;
+    color: #8c8c8c;
+    font-size: 12px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#Lfooter>a:nth-child(11){
+    border-right: none;
+}
+#Lfooter>h5{
+    color: #8c8c8c;
+    font-size: 12px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

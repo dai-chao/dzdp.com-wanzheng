@@ -1,0 +1,11 @@
+{
+  "class":[{"src":"../image/jiaxiao.png","storeName":"手把手汽车陪练","dianping":"22206","pingzhong":"驾校","dizhi":"紫竹桥","jiage":"1307"},
+    {"src":"../image/leili.png","storeName":"雷厉风行汽车","dianping":"18707","pingzhong":"驾校","dizhi":"四季青","jiage":"1015"},
+    {"src":"../image/taian.png","storeName":"路安泰汽车","dianping":"10290","pingzhong":"学历提升","dizhi":"方庄湾","jiage":"1059"},
+    {"src":"../image/chahua.png","storeName":"奇梅花艺插花","dianping":"9306","pingzhong":"花艺","dizhi":"劲松/潘家园","jiage":"1886"},
+    {"src":"../image/jita.png","storeName":"老北木吉他","dianping":"9656","pingzhong":"西洋乐器","dizhi":"广外大街","jiage":"4557"},
+    {"src":"../image/maotouying.png","storeName":"猫头鹰音乐部落","dianping":"253","pingzhong":"西洋乐器","dizhi":"亚运村","jiage":"4033"}
+  ]
+
+}
+

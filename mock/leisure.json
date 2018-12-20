@@ -1,0 +1,11 @@
+{
+  "class":[{"src":"../image/hanjiang.png","storeName":"汉江畔足疗","dianping":"22206","pingzhong":"洗浴/汗蒸","dizhi":"前门","jiage":"97"},
+    {"src":"../image/qinghuachu.png","storeName":"清华池","dianping":"18707","pingzhong":"洗浴/汗蒸","dizhi":"虎坊桥","jiage":"124"},
+    {"src":"../image/tianshu.png","storeName":"天舒汗蒸养生","dianping":"10290","pingzhong":"洗浴/汗蒸","dizhi":"蓝色港湾","jiage":"156"},
+    {"src":"../image/yunku.png","storeName":"云.酷Atmosp","dianping":"9306","pingzhong":"清吧","dizhi":"国贸","jiage":"148"},
+    {"src":"../image/mishi.png","storeName":"X先生密室","dianping":"9656","pingzhong":"密室","dizhi":"三里屯","jiage":"104"},
+    {"src":"../image/yu.png","storeName":"凤凰汇","dianping":"253","pingzhong":"按摩足疗","dizhi":"公主坟","jiage":"103"}
+  ]
+
+}
+
